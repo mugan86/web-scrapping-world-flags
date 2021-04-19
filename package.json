@@ -1,0 +1,32 @@
+{
+  "name": "quiz-world-flags-scraping",
+  "version": "1.0.0",
+  "description": "Extracción de información de las banderas mundiales para juego de tipo QUIZ",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "npx ts-node src/index.ts"
+  },
+  "keywords": [
+    "flagpedia",
+    "flags",
+    "quiz",
+    "ruslan",
+    "anartz",
+    "ruslanguns",
+    "mugan86"
+  ],
+  "author": "Anartz Mugika Ledo <mugan86@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "*",
+    "inquirer": "^8.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^7.3.1",
+    "@types/request-promise": "^4.1.47",
+    "ts-node": "^9.1.1"
+  }
+}

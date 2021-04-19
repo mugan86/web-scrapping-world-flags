@@ -1,0 +1,434 @@
+[
+  {
+    "area": "1580",
+    "population": "29789",
+    "url": "/aland-islands",
+    "name": "Åland Islands",
+    "code": "ax",
+    "continent": "europe"
+  },
+  {
+    "area": "28748",
+    "population": "2862427",
+    "url": "/albania",
+    "name": "Albania",
+    "code": "al",
+    "continent": "europe"
+  },
+  {
+    "area": "468",
+    "population": "77543",
+    "url": "/andorra",
+    "name": "Andorra",
+    "code": "ad",
+    "continent": "europe"
+  },
+  {
+    "area": "83871",
+    "population": "8902600",
+    "url": "/austria",
+    "name": "Austria",
+    "code": "at",
+    "continent": "europe"
+  },
+  {
+    "area": "207600",
+    "population": "9413446",
+    "url": "/belarus",
+    "name": "Belarus",
+    "code": "by",
+    "continent": "europe"
+  },
+  {
+    "area": "30528",
+    "population": "11522169",
+    "url": "/belgium",
+    "name": "Belgium",
+    "code": "be",
+    "continent": "europe"
+  },
+  {
+    "area": "51209",
+    "population": "3301000",
+    "url": "/bosnia-and-herzegovina",
+    "name": "Bosnia and Herzegovina",
+    "code": "ba",
+    "continent": "europe"
+  },
+  {
+    "area": "111002",
+    "population": "7000039",
+    "url": "/bulgaria",
+    "name": "Bulgaria",
+    "code": "bg",
+    "continent": "europe"
+  },
+  {
+    "area": "56594",
+    "population": "4076246",
+    "url": "/croatia",
+    "name": "Croatia",
+    "code": "hr",
+    "continent": "europe"
+  },
+  {
+    "area": "9251",
+    "population": "875900",
+    "url": "/cyprus",
+    "name": "Cyprus",
+    "code": "cy",
+    "continent": "europe"
+  },
+  {
+    "area": "78865",
+    "population": "10681161",
+    "url": "/the-czech-republic",
+    "name": "Czechia",
+    "code": "cz",
+    "continent": "europe"
+  },
+  {
+    "area": "43094",
+    "population": "5822763",
+    "url": "/denmark",
+    "name": "Denmark",
+    "code": "dk",
+    "continent": "europe"
+  },
+  {
+    "area": "45227",
+    "population": "1328360",
+    "url": "/estonia",
+    "name": "Estonia",
+    "code": "ee",
+    "continent": "europe"
+  },
+  {
+    "area": "1393",
+    "population": "52124",
+    "url": "/faroe-islands",
+    "name": "Faroe Islands",
+    "code": "fo",
+    "continent": "europe"
+  },
+  {
+    "area": "338424",
+    "population": "5527573",
+    "url": "/finland",
+    "name": "Finland",
+    "code": "fi",
+    "continent": "europe"
+  },
+  {
+    "area": "640679",
+    "population": "67064000",
+    "url": "/france",
+    "name": "France",
+    "code": "fr",
+    "continent": "europe"
+  },
+  {
+    "area": "357114",
+    "population": "83149300",
+    "url": "/germany",
+    "name": "Germany",
+    "code": "de",
+    "continent": "europe"
+  },
+  {
+    "area": "6",
+    "population": "33701",
+    "url": "/gibraltar",
+    "name": "Gibraltar",
+    "code": "gi",
+    "continent": "europe"
+  },
+  {
+    "area": "131957",
+    "population": "10724599",
+    "url": "/greece",
+    "name": "Greece",
+    "code": "gr",
+    "continent": "europe"
+  },
+  {
+    "area": "78",
+    "population": "62792",
+    "url": "/guernsey",
+    "name": "Guernsey",
+    "code": "gg",
+    "continent": "europe"
+  },
+  {
+    "area": "93028",
+    "population": "9772756",
+    "url": "/hungary",
+    "name": "Hungary",
+    "code": "hu",
+    "continent": "europe"
+  },
+  {
+    "area": "103000",
+    "population": "364260",
+    "url": "/iceland",
+    "name": "Iceland",
+    "code": "is",
+    "continent": "europe"
+  },
+  {
+    "area": "70273",
+    "population": "4921500",
+    "url": "/ireland",
+    "name": "Ireland",
+    "code": "ie",
+    "continent": "europe"
+  },
+  {
+    "area": "572",
+    "population": "83314",
+    "url": "/isle-of-man",
+    "name": "Isle of Man",
+    "code": "im",
+    "continent": "europe"
+  },
+  {
+    "area": "301339",
+    "population": "60247214",
+    "url": "/italy",
+    "name": "Italy",
+    "code": "it",
+    "continent": "europe"
+  },
+  {
+    "area": "116",
+    "population": "106800",
+    "url": "/jersey",
+    "name": "Jersey",
+    "code": "je",
+    "continent": "europe"
+  },
+  {
+    "area": "10887",
+    "population": "1795666",
+    "url": "/kosovo",
+    "name": "Kosovo",
+    "code": "xk",
+    "continent": "europe"
+  },
+  {
+    "area": "64559",
+    "population": "1906800",
+    "url": "/latvia",
+    "name": "Latvia",
+    "code": "lv",
+    "continent": "europe"
+  },
+  {
+    "area": "160",
+    "population": "38557",
+    "url": "/liechtenstein",
+    "name": "Liechtenstein",
+    "code": "li",
+    "continent": "europe"
+  },
+  {
+    "area": "65300",
+    "population": "2793350",
+    "url": "/lithuania",
+    "name": "Lithuania",
+    "code": "lt",
+    "continent": "europe"
+  },
+  {
+    "area": "2586",
+    "population": "613894",
+    "url": "/luxembourg",
+    "name": "Luxembourg",
+    "code": "lu",
+    "continent": "europe"
+  },
+  {
+    "area": "316",
+    "population": "493559",
+    "url": "/malta",
+    "name": "Malta",
+    "code": "mt",
+    "continent": "europe"
+  },
+  {
+    "area": "33846",
+    "population": "2681735",
+    "url": "/moldova",
+    "name": "Moldova",
+    "code": "md",
+    "continent": "europe"
+  },
+  {
+    "area": "2.02",
+    "population": "38300",
+    "url": "/monaco",
+    "name": "Monaco",
+    "code": "mc",
+    "continent": "europe"
+  },
+  {
+    "area": "13812",
+    "population": "622359",
+    "url": "/montenegro",
+    "name": "Montenegro",
+    "code": "me",
+    "continent": "europe"
+  },
+  {
+    "area": "41850",
+    "population": "17438081",
+    "url": "/the-netherlands",
+    "name": "Netherlands",
+    "code": "nl",
+    "continent": "europe"
+  },
+  {
+    "area": "25713",
+    "population": "2077132",
+    "url": "/macedonia",
+    "name": "North Macedonia",
+    "code": "mk",
+    "continent": "europe"
+  },
+  {
+    "area": "323802",
+    "population": "5356789",
+    "url": "/norway",
+    "name": "Norway",
+    "code": "no",
+    "continent": "europe"
+  },
+  {
+    "area": "312696",
+    "population": "38386000",
+    "url": "/poland",
+    "name": "Poland",
+    "code": "pl",
+    "continent": "europe"
+  },
+  {
+    "area": "92090",
+    "population": "10276617",
+    "url": "/portugal",
+    "name": "Portugal",
+    "code": "pt",
+    "continent": "europe"
+  },
+  {
+    "area": "238397",
+    "population": "19405156",
+    "url": "/romania",
+    "name": "Romania",
+    "code": "ro",
+    "continent": "europe"
+  },
+  {
+    "area": "17098200",
+    "population": "146780720",
+    "url": "/russia",
+    "name": "Russia",
+    "code": "ru",
+    "continent": "europe"
+  },
+  {
+    "area": "61",
+    "population": "33574",
+    "url": "/san-marino",
+    "name": "San Marino",
+    "code": "sm",
+    "continent": "europe"
+  },
+  {
+    "area": "88361",
+    "population": "6963764",
+    "url": "/serbia",
+    "name": "Serbia",
+    "code": "rs",
+    "continent": "europe"
+  },
+  {
+    "area": "49037",
+    "population": "5456362",
+    "url": "/slovakia",
+    "name": "Slovakia",
+    "code": "sk",
+    "continent": "europe"
+  },
+  {
+    "area": "20273",
+    "population": "2094060",
+    "url": "/slovenia",
+    "name": "Slovenia",
+    "code": "si",
+    "continent": "europe"
+  },
+  {
+    "area": "505992",
+    "population": "47100396",
+    "url": "/spain",
+    "name": "Spain",
+    "code": "es",
+    "continent": "europe"
+  },
+  {
+    "area": "61022",
+    "population": "0",
+    "url": "/svalbard-and-jan-mayen",
+    "name": "Svalbard and Jan Mayen",
+    "code": "sj",
+    "continent": "europe"
+  },
+  {
+    "area": "450295",
+    "population": "10327589",
+    "url": "/sweden",
+    "name": "Sweden",
+    "code": "se",
+    "continent": "europe"
+  },
+  {
+    "area": "41284",
+    "population": "8586550",
+    "url": "/switzerland",
+    "name": "Switzerland",
+    "code": "ch",
+    "continent": "europe"
+  },
+  {
+    "area": "783562",
+    "population": "83154997",
+    "url": "/turkey",
+    "name": "Turkey",
+    "code": "tr",
+    "continent": "europe"
+  },
+  {
+    "area": "603500",
+    "population": "41902416",
+    "url": "/ukraine",
+    "name": "Ukraine",
+    "code": "ua",
+    "continent": "europe"
+  },
+  {
+    "area": "242495",
+    "population": "66435600",
+    "url": "/the-united-kingdom",
+    "name": "United Kingdom",
+    "code": "gb",
+    "continent": "europe"
+  },
+  {
+    "area": "0.44",
+    "population": "799",
+    "url": "/the-vatican-city",
+    "name": "Vatican City",
+    "code": "va",
+    "continent": "europe"
+  }
+]
