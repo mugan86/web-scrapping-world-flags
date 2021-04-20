@@ -19,8 +19,8 @@ export function extractData(continent: string) {
             let imgArray = img?.split("/") || [];
             img = imgArray[imgArray?.length - 1] || '';
             flagItems.push({
-                area,
-                population,
+                area: +(area || 0),
+                population: +(population || 0),
                 url,
                 name,
                 code: img.replace(".png", ""),
