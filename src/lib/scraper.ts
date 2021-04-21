@@ -27,6 +27,6 @@ export function extractData(continent: string) {
                 continent
             });
         });
-        fs.writeFileSync(`./${continent}.json`, JSON.stringify(flagItems));
+        fs.writeFileSync(`./data/${continent}.json`, JSON.stringify(flagItems));
     });
 }
