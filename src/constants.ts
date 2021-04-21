@@ -1,6 +1,11 @@
 // URL principal
 export const MAIN_URL = 'https://flagpedia.net/';
 
+export const OPTIONS = [
+    { key: 0, name: "Todas" },
+    { key: 1, name: "Una en particular" },
+];
+
 // Información de los diferentes apartados de los continentes
 export const CONTINENTS = [
     {key: 'africa',         name: 'África'},
