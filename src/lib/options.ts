@@ -1,5 +1,5 @@
 import inquirer from "inquirer";
-import { PROGRAM_PRINCIPAL_OPTIONS } from "../constants";
+import { CONTINENTS, PROGRAM_PRINCIPAL_OPTIONS } from "../constants";
 
 /**
  * Select option to execute start actions with information
@@ -14,6 +14,19 @@ export function selectPrincipalOption(): Promise<{ OPTION: string }> {
       choices: PROGRAM_PRINCIPAL_OPTIONS.map(
         (option: { name: string }) => option.name
       ),
+    },
+  ]);
+}
+
+export function selectContinent(): Promise<{ CONTINENT: string }> {
+  return inquirer.prompt([
+    {
+      type: "list",
+      name: "CONTINENT",
+      message: "¿Qué continente seleccionas para extraer sus banderas?",
+      choices: CONTINENTS.map((continent: { name: string }) => {
+        return continent.name;
+      }),
     },
   ]);
 }

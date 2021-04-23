@@ -1,3 +1,4 @@
+import { ICountry } from './../interfaces/country.interface';
 import { DEFAULT_SAVE_DIRECTORY } from "../constants";
 import * as fs from "fs";
 
@@ -25,7 +26,7 @@ class FileManager {
    * Function to load data from select path
    * @param path File name that create with JSON extension
    */
-  read(path: string): Array<object> {
+  read(path: string): Array<ICountry> {
     try {
       const data = fs.readFileSync(path, "utf8");
       return JSON.parse(data);

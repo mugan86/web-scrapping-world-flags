@@ -1,22 +1,35 @@
 import { CONTINENTS } from "../constants";
+import { ICountry } from "../interfaces/country.interface";
 import FileManager from "./file-manager";
 
-export function getRandom(min: number, max: number) {
-  return Math.random() * (max - min) + min;
+function getRandom(dataLength: number) {
+  return Math.floor(Math.random()* dataLength);
 }
 
-export function getContinents(continent: string) {
-  let flagItems: Array<object> = [];
+export function selectRandomOthers(
+    dataLength: number,
+    excludePosition: number): number {
+    var randNumber = getRandom(dataLength);
+    if( randNumber === excludePosition){
+        return selectRandomOthers(dataLength,excludePosition);
+    }
+    return randNumber;
+}
+
+export function getCountriesData(continent: string): Array<ICountry> {
+  let flagItems: Array<ICountry> = [];
   if (continent !== "all") {
     flagItems = [...new FileManager().read(`./data/${continent}.json`)];
-    console.log(flagItems);
-    return;
-  }
-  console.log("- Extrayendo todos los continentes\n");
+    return flagItems;
+  } 
+  console.log("- Cargando todos los continentes\n");
   CONTINENTS.forEach((continent: { key: string; name: string }) => {
-    console.log(`Extrayendo ${continent.name}...`);
+    console.log(`Cargando ${continent.name}...`);
     flagItems = flagItems.concat(
       new FileManager().read(`./data/${continent.key}.json`)
     );
   });
+  return flagItems
 }
+
+

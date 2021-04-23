@@ -1,14 +1,23 @@
 // URL principal
 export const MAIN_URL = 'https://flagpedia.net/';
+export const IMAGES_URL = 'https://flagcdn.com/';
+
+// QUESTIONS VERSION
+export const VERSION = 3;
 
 export const PROGRAM_PRINCIPAL_OPTIONS = [
     { key: 'scraping', name: "Extraer información con web scrapping" },
     { key: 'questions', name: "Generar preguntas" },
 ]
 
-export const SCRAPPING_OPTIONS = [
+export const CONTINENT_OPTIONS = [
     { key: 'all', name: "Todas" },
     { key: 'select', name: "Una en particular" },
+];
+
+export const CONTINENT_SELECT_OPTIONS = [
+    { key: 'all', name: "Todos los continentes" },
+    { key: 'select', name: "Un continente concreto" },
 ];
 
 export const DEFAULT_SAVE_DIRECTORY = "./data";

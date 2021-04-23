@@ -2,6 +2,7 @@ import {
   PROGRAM_PRINCIPAL_OPTIONS,
 } from "./constants";
 import { selectPrincipalOption } from "./lib/options";
+import { createQuestions } from "./lib/questions/generator";
 import { getScrappingOptions } from "./lib/scraper/options";
 
 // Titulo
@@ -27,7 +28,7 @@ async function start() {
     getScrappingOptions();
     return;
   }
-  console.log("Generar preguntas");
+  createQuestions();
 }
 
 start();
