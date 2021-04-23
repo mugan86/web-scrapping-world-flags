@@ -1,28 +1,7 @@
-import { DEFAULT_SAVE_DIRECTORY, getScrapingUrl } from "../../constants";
+import { getScrapingUrl } from "./../../constants";
 import requestPromise from "request-promise";
 import $ from "cheerio";
-import fs from "fs";
-
-/**
- * Function to create individual continent flags info file.
- * Check if 'data' directory exist and if not exist, create
- * first and after save info.
- * @param name File name that create with JSON extension
- * @param items Flags items info in array to save in file
- */
-function createFile(name: string, items: Array<object>) {
-  
-  const dir = DEFAULT_SAVE_DIRECTORY;
-
-  if (fs.existsSync(dir)) {
-    fs.writeFileSync(`${dir}/${name}.json`, JSON.stringify(items));
-  } else {
-    console.log("Directory not found.");
-    console.log("Create 'data' directory");
-    fs.mkdirSync(dir);
-    createFile(name, items);
-  }
-}
+import FileManager from "../file-manager";
 
 /**
  * Select continent all flags list page to extract info+
@@ -53,6 +32,6 @@ export function extractData(continent: string) {
         continent,
       });
     });
-    createFile(continent, flagItems);
+    new FileManager().create(continent, flagItems);
   });
 }
