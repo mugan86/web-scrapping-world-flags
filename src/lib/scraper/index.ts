@@ -1,4 +1,4 @@
-import { DEFAULT_SAVE_DIRECTORY, getScrapingUrl } from "../constants";
+import { DEFAULT_SAVE_DIRECTORY, getScrapingUrl } from "../../constants";
 import requestPromise from "request-promise";
 import $ from "cheerio";
 import fs from "fs";

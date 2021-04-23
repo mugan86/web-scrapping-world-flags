@@ -1,7 +1,8 @@
 import {
   PROGRAM_PRINCIPAL_OPTIONS,
 } from "./constants";
-import { getScrappingOptions, selectPrincipalOption } from "./options";
+import { selectPrincipalOption } from "./lib/options";
+import { getScrappingOptions } from "./lib/scraper/options";
 
 // Titulo
 function title() {
