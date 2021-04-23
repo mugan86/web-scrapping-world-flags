@@ -1,9 +1,14 @@
 // URL principal
 export const MAIN_URL = 'https://flagpedia.net/';
 
-export const OPTIONS = [
-    { key: 0, name: "Todas" },
-    { key: 1, name: "Una en particular" },
+export const PROGRAM_PRINCIPAL_OPTIONS = [
+    { key: 'scraping', name: "Extraer información con web scrapping" },
+    { key: 'questions', name: "Generar preguntas" },
+]
+
+export const SCRAPPING_OPTIONS = [
+    { key: 'all', name: "Todas" },
+    { key: 'select', name: "Una en particular" },
 ];
 
 export const DEFAULT_SAVE_DIRECTORY = "./data";

@@ -3,11 +3,17 @@ import requestPromise from "request-promise";
 import $ from "cheerio";
 import fs from "fs";
 
+/**
+ * Function to create individual continent flags info file.
+ * Check if 'data' directory exist and if not exist, create
+ * first and after save info.
+ * @param name File name that create with JSON extension
+ * @param items Flags items info in array to save in file
+ */
 function createFile(name: string, items: Array<object>) {
-  // directory to check if exists
+  
   const dir = DEFAULT_SAVE_DIRECTORY;
 
-  // check if directory exists
   if (fs.existsSync(dir)) {
     fs.writeFileSync(`${dir}/${name}.json`, JSON.stringify(items));
   } else {
@@ -18,6 +24,11 @@ function createFile(name: string, items: Array<object>) {
   }
 }
 
+/**
+ * Select continent all flags list page to extract info+
+ * and save in JSON file
+ * @param continent select continent key code
+ */
 export function extractData(continent: string) {
   const url = getScrapingUrl(continent);
   const flagItems: Array<object> = [];
